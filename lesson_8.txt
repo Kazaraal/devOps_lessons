@@ -1,0 +1,44 @@
+ken@kens:~/Desktop/DevOps_Online_Training$ echo "Kenneth" > myname.txt
+ken@kens:~/Desktop/DevOps_Online_Training$ cat myname.txt 
+Kenneth
+ken@kens:~/Desktop/DevOps_Online_Training$ cp myname.txt ~/Music/
+ken@kens:~/Desktop/DevOps_Online_Training$ sudo apt install vim -y
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 9,161 kB of archives.
+After this operation, 41.6 MB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 vim-runtime all 2:9.1.0016-1ubuntu7.3 [7,281 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 vim amd64 2:9.1.0016-1ubuntu7.3 [1,880 kB]
+Fetched 9,161 kB in 3s (3,190 kB/s)
+Selecting previously unselected package vim-runtime.
+(Reading database ... 214553 files and directories currently installed.)
+Preparing to unpack .../vim-runtime_2%3a9.1.0016-1ubuntu7.3_all.deb ...
+Adding 'diversion of /usr/share/vim/vim91/doc/help.txt to /usr/share/vim/vim91/doc/help.txt.vim-tiny by vim-
+runtime'
+Adding 'diversion of /usr/share/vim/vim91/doc/tags to /usr/share/vim/vim91/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:9.1.0016-1ubuntu7.3) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a9.1.0016-1ubuntu7.3_amd64.deb ...
+Unpacking vim (2:9.1.0016-1ubuntu7.3) ...
+Setting up vim-runtime (2:9.1.0016-1ubuntu7.3) ...
+Setting up vim (2:9.1.0016-1ubuntu7.3) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+Processing triggers for man-db (2.12.0-4build2) ...
+ken@kens:~/Desktop/DevOps_Online_Training$ vim ~/Music/myname.txt 
+ken@kens:~/Desktop/DevOps_Online_Training$ cat ~/Music/myname.txt 
+Kaserebe
+ken@kens:~/Desktop/DevOps_Online_Training$ 
