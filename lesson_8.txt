@@ -296,3 +296,12 @@ ken@kens:~/Desktop/DevOps_Online_Training$
 
 
 ### 3.
+
+sdf:/sdf/udd/k/ken.kas> ssh tty.sdf.org   
+
+To use this feature, please join the SDF 'arpa' membership
+ARPA membership is available to you for a ONE TIME donation of only $36.
+
+Your membership ensures our future!  Type 'arpa' for details.
+
+sdf:/sdf/udd/k/ken.kas> 
