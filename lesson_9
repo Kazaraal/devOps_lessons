@@ -1,0 +1,31 @@
+# # 1.
+# # The .py file
+# # Import the getpass module to retrieve the current system's username
+# import getpass
+
+# # Create a function to get the current system's username
+# def getUser():
+#     user = getpass.getuser()
+#     print(user)
+
+# # Call method
+# getUser()
+
+
+# # The Dockerfile
+# # Use the official python image
+# FROM python:3.9.20-bullseye
+
+# # Set the working directory in the container
+# WORKDIR ./app
+
+# # Copy the current directory contents into the container at ./app
+# COPY . .
+
+# # Command to run the python script
+# CMD ["python", "getUser.py"]
+
+
+# # The terminal screenshot of container running
+# ken@kens:~/Desktop/DevOps_Online_Training/docker$ sudo docker run -it getuser_image
+# root
